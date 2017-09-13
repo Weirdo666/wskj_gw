@@ -1,0 +1,442 @@
+/*===========火爆活动开始===========*/
+.t_740{
+    width: 1366px;
+    margin: 0 auto;
+}
+.t_740 .hot_tit{
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+.t_740 .hotgm{
+    /*background-color: green;*/
+}
+
+.content-left{
+    width: 1040px;
+    float: left;
+    /*height: 800px;*/
+    /*background-color: red;*/
+}
+
+.content-right{
+    width: 320px;
+    float: right;
+    /*height: 800px;*/
+    /*background-color: green;*/
+    padding-left: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*火爆活动*/
+.act {
+    float: left;
+    margin-top: 20px;
+    width: 1040px
+}
+
+.lie1 {
+    float: left;
+    width: 320px;
+}
+
+.lie2 {
+    float: left;
+    width: 320px;
+    /*background-color: green;*/
+    margin-left: 40px;
+}
+
+.lie3 {
+    float: left;
+    width: 320px;
+    /*background-color: red;*/
+    margin-left: 40px;
+    margin-right: -40px;
+}
+
+.news_1 h3 {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 320px
+}
+
+.news_1 {
+    float: left;
+    margin-bottom: 20px;
+    width: 320px
+}
+
+.news_1 h3 a {
+    color: #474747;
+}
+
+.item1 img {
+    vertical-align: top;
+    width: 320px;
+    /*height: 190px*/
+}
+
+.item1 li {
+    position: relative;
+    float: left;
+    margin-right: 3px;
+    width: 320px;
+    /*height: 190px;*/
+    overflow: hidden;
+    cursor: pointer
+}
+
+.item1 div {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 320px;
+    height: 35px;
+    background: #000;
+    filter: alpha(opacity=80);
+    -moz-opacity: .80;
+    opacity: 0.8;
+    color: #fff;
+    overflow: hidden
+}
+
+.item1 p {
+    display: none;
+    /*width: 100%;*/
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    overflow: hidden
+}
+
+.item1 h4 {
+    line-height: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 320px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*排行榜*/
+.phb {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.phb ul {
+    float: left;
+    margin-top: 10px;
+    width: 300px
+}
+
+.phb li {
+    float: left;
+    /*padding-left: 20px;*/
+    width: 220px;
+    border-bottom: 1px dashed #e6e6e6;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.phb .nor {
+    border: none
+}
+
+.phb li:last-child {
+    border-bottom: none;
+}
+.p_dot1, .p_dot2, .p_dot3, .p_dot4 {
+    float: left;
+    width: 15px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFF;
+    font-family: "Times New Roman";
+    padding-right: 10px;
+    margin-top: 2px
+}
+
+.p_dot1 {
+    background: url(../images/p_dot.png) no-repeat
+}
+
+.p_dot2 {
+    background: url(../images/p_dot.png) 0 -13px no-repeat
+}
+
+.p_dot3 {
+    background: url(../images/p_dot.png) 0 -26px no-repeat
+}
+
+.p_dot4 {
+    background: url(../images/p_dot.png) 0 -39px no-repeat
+}
+
+.zs {
+    float: left;
+    width: 195px
+}
+
+.zs_game {
+    float: left;
+    width: 50px;
+    height: 50px
+}
+
+.zs_game img {
+    width: 50px;
+    height: 50px
+}
+
+.zs_name_xz {
+    float: left;
+    width: 70px
+}
+
+.zs_name {
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 120px;
+    color: #646464
+}
+
+.zs_name a {
+    color: #646464
+}
+
+.game_name {
+    color: #646464
+}
+
+.zs_xz {
+    float: left;
+    margin-left: 5px;
+    display: inline;
+    margin-top: 5px
+}
+
+.zs_xz a {
+    width: 52px;
+    height: 22px;
+    background-color: #fb8472;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+    display: block
+}
+
+.zs_xz a:hover {
+    background-color: #faa497;
+    color: #fff
+}
+
+.zs_cout {
+    float: left;
+    margin-left: 5px;
+    width: 70px;
+    margin-top: 25px;
+    color: #8d8d8d;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*游戏攻略*/
+.l_360 {
+    float: left;
+    width: 350px;
+    margin-top: 20px
+}
+
+.gl {
+    width: 350px;
+    float: left;
+    display: inline;
+    padding-left: 15px;
+    padding-top: 20px
+}
+
+.gl dl {
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom: 30px
+}
+
+.gl dt {
+    float: left
+}
+
+.gl dt img {
+    float: left;
+    width: 58px;
+    height: 58px
+}
+
+.gl dd {
+    width: 280px;
+    float: left;
+    padding-bottom: 10px
+}
+
+.gl dd h4 {
+    padding-left: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 270px;
+    overflow: hidden;
+    color: #666666
+}
+
+.gl dd h4 a {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.gl_js {
+    float: left;
+    margin-top: 3px;
+    width: 260px;
+    padding-left: 10px;
+    color: #a2a2a2;
+    line-height: 20px
+}
+
+.gl_js a {
+    color: #a2a2a2
+}
+
+/*最新资讯*/
+.r_360 {
+    float: right;
+    width: 320px;
+    margin-top: 20px;
+    /*background-color: red;*/
+}
+
+.hot_news {
+    width: 320px;
+    float: left;
+    display: inline;
+    padding-left: 0px;
+    /*background-color: chartreuse;*/
+}
+
+.hot_news dl {
+    float: left;
+    margin-top: 10px
+}
+
+.hot_news dd {
+    border-bottom: 1px dashed #ececec;
+    padding-bottom: 10px;
+    margin-bottom: 10px
+}
+
+.hot_news .nor {
+    border: none
+}
+
+.hot_news dd:last-child {
+    border-bottom: none;
+}
+
+.hot_news dd h4 {
+    padding: 8px 0;
+    text-align: center;
+    color: #f1b045;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 320px;
+}
+
+.hot_news dd h4 a {
+    font-weight: 500;
+    color: #f1b045;
+    font-size: 14px
+}
+
+.hot_news dd p {
+    color: #666666;
+    width: 320px;
+    line-height: 22px
+}
+
+.hot_news dd a {
+    color: #666666
+}
+
+/*排行榜下面的四个ad*/
+.ad2 {
+    clear: both;
+    width: 240px;
+    margin-top: 15px
+}
+.ad2:hover {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+
+/*微信关注*/
+.interest {
+    float: left;
+    width: 240px;
+    margin-top: 10px
+}
+
+.interest_link {
+    float: left;
+    width: 240px;
+    margin-top: 10px
+}
+
+.weixin, .weibo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline
+}
+
+/*游戏攻略,最新资讯,关注的背景图设置*/
+.tit5 {
+    float: left;
+    width: 100px;
+    height: 25px;
+    background: url(../images/tit1_bg.png) 0 -75px no-repeat;
+}
+.tit6 {
+    float: left;
+    width: 100px;
+    height: 25px;
+    background: url(../images/tit1_bg.png) 0 -100px no-repeat;
+}
+.tit7 {
+    float: left;
+    width: 100px;
+    height: 25px;
+}
+.tit9 {
+    float: left;
+    width: 70px;
+    height: 25px;
+    background: url(../images/tit1_bg.png) 0 -150px no-repeat;
+}

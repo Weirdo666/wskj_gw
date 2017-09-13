@@ -1,0 +1,55 @@
+#login{
+    border-radius: 10px;
+    text-align: center;
+}
+#login .forgetpass{
+    float: right;
+    color: #ff5c23;
+}
+#login .login-h3{
+    margin: 5px 0 8px;
+}
+#login .login-btn{
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    background-color: #ff5d25;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+#login .login-btn:hover{
+    background-color: #ff4916;
+}
+#login .account-pass{
+    width: 248px;
+    height: 40px;
+    margin-top: 11px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+#login .quc-field{
+    margin-top: 12px;
+}
+#login .quc-checkbox,label{
+    float: left;
+    color: #676767;
+}
+#login .register{
+    margin-top: 65px;
+}
+#login .register span{
+    float: left;
+    color: #676767;
+}
+#login .register a{
+    float: right;
+    color: #676767;
+}
+#login .register a:hover{
+    color: #ff5c23;
+    text-decoration: none;
+}
